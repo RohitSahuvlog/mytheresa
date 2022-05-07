@@ -1,0 +1,30 @@
+*{
+    margin-top: 0%;
+}
+
+.rightbigbanner12,
+.leftbigbanner12 {
+    width: 50%;
+    text-align: center;
+   
+}
+
+.rightbigbanner12>img,.leftbigbanner12>img
+{
+  width: 100%;
+   
+}
+
+.bigbanner {
+    display: flex;
+   
+}
+.rightbigbanner12>div>img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+
+.rightbigbanner12>div {
+    margin-top: 157px;
+}

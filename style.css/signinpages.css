@@ -1,0 +1,32 @@
+.main-registration {
+    display: flex;
+    width: 90%;
+    padding: 40px;
+}
+
+.main-registration1,
+.main-registration2 {
+    width: 50%;
+}
+.main-registration1>h3,
+.main-registration2>h3{
+font-weight: 200;
+
+
+}
+.input-box {
+    display: flex;
+}
+li{
+    list-style: none;
+}
+.checkbox2>li{
+    margin: 10px;
+}
+.checkbox2>li>input{
+    width: 100%;
+    height: 30px;
+}
+.control{
+    margin: 5px;
+}

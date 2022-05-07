@@ -1,0 +1,86 @@
+body{
+    width: 1180px;
+    padding: 20px;
+}
+.varyinput{
+width: 200px;
+}
+#cardfrt{
+display: flex;
+padding: 16px 30px 30px 30px;
+border-top: 1px solid #dfdfdf;
+position: relative;
+justify-items: center;
+}
+#cardfrt>h4{
+width: 444px;
+display: flex;
+margin-top: 40px;
+justify-content: flex-end;
+}
+.imgrs{
+padding: 10px;
+width: 100px;
+}
+#remove{
+border: none;
+background-color: #fff;
+cursor: pointer;
+}
+#remove:hover{
+color: rgba(0, 0, 0, 0.427);
+}
+.paymentheader{
+display: flex;
+justify-content: flex-end;
+
+}
+.paymentheader>h2{
+font-size: 15px;
+margin-left: 90px;
+}
+#btnset{
+position: absolute;
+right: 157px;
+
+}
+#btnset>button{
+    border: none;
+}
+#minus{
+padding: 1.5px 7.5px;
+}
+#quantinp{
+text-align: center;
+}
+.daata{
+right:0px;
+position: absolute;
+margin-top: 40px;
+}
+.nameitem{
+width: 300px;
+}
+.bottomheading{
+border-top: 1px solid #dfdfdf;
+padding: 20px;
+}
+.cantact{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.cantact>div{
+  width: 300px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+  text-align: center;
+    justify-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.434);
+    line-height:0.5;
+   padding: 20px;
+}
+.cantactmain>p{
+    text-align: center;
+}

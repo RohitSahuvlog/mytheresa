@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/brands.min.css"
+    integrity="sha512-SFyAczXIjDD7PVlzleuYRQ1jGCwnm4RnN+O5+L62Od3MJxHBsB0HmtMOdewV9CZWOz+ACu2CHOvF+5/yHagcwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+  .main-registration {
+    display: flex;
+    width: 90%;
+    padding: 40px;
+}
+
+.main-registration1,
+.main-registration2 {
+    width: 50%;
+}
+.main-registration1>h3,
+.main-registration2>h3{
+font-weight: 200;
+
+
+}
+.input-box {
+    display: flex;
+}
+li{
+    list-style: none;
+}
+.checkbox2>li{
+    margin: 10px;
+}
+.checkbox2>li>input{
+    width: 100%;
+    height: 30px;
+}
+.control{
+    margin: 5px;
+}
+.cantact{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.cantact>div{
+  width: 300px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+  text-align: center;
+    justify-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.434);
+    line-height:0.5;
+   padding: 20px;
+}
+.cantactmain>p{
+    text-align: center;
+}
+</style>
+
+<body>
+    <div class="pagesrs">
+    <!-- <div class="loader">
+        <img src="https://www.mytheresa.com/skin/frontend/mytheresa/default/images/ajax-loader.gif">
+    </div> -->
+    <div class="skip-link" style="border-bottom: 1px solid #dfdfdf; margin-bottom: 30px;margin-top: 50px;">
+        <div style="margin-bottom: 30px;" > <a>
+                <img src="https://www.mytheresa.com/skin/frontend/mytheresa/default/images/logo-s.png?v=20220420T172422">
+                
+            </a></div>
+         </div>
+
+
+    </div>
+    <div class="main-registration">
+        <div class="main-registration1">
+            <h4>SHIPPING ADDRESS</h4>
+            <p>Please enter your shipping address in the form below.</p>
+            <div class="input-box">
+                <div>
+                    <li class="control">
+                        <input class="radio" type="radio" name="prefix" id="prefix-Ms." value="Ms."><label>Ms.</label>
+                    </li>
+                </div>
+                <div>
+                    <li class="control">
+                        <input class="radio" type="radio" name="prefix" id="prefix-Mrs." value="Mrs."><label>Mrs.</label>
+                    </li>
+                </div>
+                <div>
+                    <li class="control">
+                        <input class="radio" type="radio" name="prefix" id="prefix-Mr." value="Mr."><label>Mr.</label>
+                    </li>
+                </div>
+
+
+            </div>
+            <div class="checkbox2">
+                <li><input type="text" id="name" placeholder=" entre your name"></li>
+             
+                <li><input type="email" id="email" placeholder=" entre your email"></li>
+                
+                <li><input type="company" id="company" placeholder="company"></li>
+                
+                <li><input type="number" id="pincode" placeholder=" entre your pincode"></li>
+              
+                <li><input type="text" id="city" placeholder="enter your city name"></li>
+                <li><input type="text" id="lang" placeholder="English"></li>
+                <li>
+                    
+                * required fields
+                    <p>BILLING ADDRESS</p>
+                    <p>If your billing address differs from your shipping address, please click "add billing address".</p>
+
+                    <div class="button-wrapper">
+
+                        <button id="shopbtn" style="width:200px;
+                        " onclick="getaddress()">ADD BILLING ADDRESS</button>
+                    </div>
+<br>
+<br>
+<br>
+
+                    
+
+                </li>
+
+
+
+               
+               
+           
+            </div>
+
+        </div>
+        <div class="main-registration2" style="padding-left: 130px; list-style: circle;" >
+            <h3>Be the first to find out about:</h3>
+            <p>• our 900 new arrivals each week</p>
+            <p>• not-to-be-missed sales</p>
+            <p>• personalized product recommendations</p>
+            <p>• unique designer collaborations</p>
+            <p>• exclusive pre-shopping events</p>
+        </div>
+
+      
+       
+
+
+    </div>
+    <div class="button-wrapper" style="display:flex;justify-content: space-between;padding: 50px; margin-top: -100px;">
+
+        <button id="shopbtn" onclick="backshopfunc()" style="width:200px;
+        ">BACK TO SHOPPING BAG</button>
+        
+        <button id="shopbtn" onclick="singnfunc()" style="width:200px;
+        ">PROCEED TO CHECKOUT</button>
+    </div>
+    <script>
+        window.location.href="./payment.html"
+    </script>
+    <div style="border-bottom: 1px solid #dfdfdf; margin-bottom: 30px;"></div>
+    <div class="cantactmain">
+        <p>You can also place your order via telephone.</p>
+        <div class="cantact">
+            <div>
+                <i class="fa-solid fa-phone"></i>
+                <br>
+                <p>CALL US</p>
+                <p>+33 1 76607013</p>
+                <p>Available 24/7</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-envelope-circle-check"></i>
+                <br>
+                <p>MAIL US</p>
+                <p>customercare@mytheresa.com</p>
+            </div>
+        </div>
+    </div>
+    <div style="border-bottom: 1px solid #dfdfdf; margin-bottom: 60px;"></div>
+</div>
+</body>
+<script>
+    var arr1 = JSON.parse(localStorage.getItem("getaddress"))||[]
+ 
+ function getaddress(){
+     var arr=[]
+var Email=document.querySelector("#email").value;
+var User=document.querySelector("#name").value;
+var city=document.querySelector("#city").value;
+var lang=document.querySelector("#lang").value;
+var company=document.querySelector("#company").value;
+var pincode=document.querySelector("#pincode").value;
+var obj={
+ Name:User,
+ Email:Email,
+ City:city,
+Lang:lang,
+Company: company,
+Pincode:pincode
+
+}
+
+
+// //console.log(arr)
+
+arr.push(obj);
+localStorage.setItem("getaddress",JSON.stringify(arr))
+
+ }
+ function backshopfunc(){
+     window.location.href="./afterAdd.html"
+ }
+</script>
+</html>

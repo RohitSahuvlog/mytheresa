@@ -1,0 +1,44 @@
+.maindivision {
+    display: flex;
+}
+*{
+    margin-top: 0%;
+}
+
+.womenheader {
+    border-bottom: 1px solid #dfdfdf;
+    padding-bottom: 5px;
+}
+
+.maindivision>div {
+    padding-left: 10px;
+    width: 300px;
+
+}
+
+.womenitems {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-gap: 10px;
+}
+
+#cardrs {
+    border: 1px solid #dfdfdf;
+    text-align: center;
+    cursor: pointer;
+}
+
+.imgrs {
+    width: 100%;
+}
+
+.women-container1>div:nth-child(2) {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.women-container1>div:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+}
