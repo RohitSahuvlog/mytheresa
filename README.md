@@ -3,11 +3,11 @@
 
 Mytheresa is an online shopping destination for children, men and women's luxury clothing, bags, shoes, and accessories.
 
-AS part of unit 2 construct week i cloned the frontend of Mytheresa to the best of my ability as individual in the span of 5 days.
+AS part of unit 3 construct week i cloned the frontend of Mytheresa to the best of my ability as individual in the span of 5 days.
 
-[Deploy link](https://mytheresashp.netlify.app/)
+[Deploy link](https://chic-mooncake-91e805.netlify.app/)
 
-[Blog link](https://medium.com/@daniyal4engg/clone-of-mytheresa-com-41a30f16053e)
+
 
 ## Tech Stack:
 
